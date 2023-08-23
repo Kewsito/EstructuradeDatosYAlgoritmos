@@ -39,6 +39,6 @@ class Torre:
     
     def mostrartorre(self,i):
         if self.__tope < i:
-            return ''
+            return ' '
         return str(self.__arreglo[i-1])
     
