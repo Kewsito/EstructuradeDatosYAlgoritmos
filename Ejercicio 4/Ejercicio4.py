@@ -42,3 +42,6 @@ class Torre:
             return ' '
         return str(self.__arreglo[i-1])
     
+    
+    def tamaño(self):
+        return self.__tope
